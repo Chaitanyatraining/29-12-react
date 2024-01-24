@@ -7,6 +7,7 @@ import StylingsComp from './Components/stylings/StylingsComp';
 import ListsandKeys from './Components/stylings/ListsandKeys';
 import Header from './Components/Header';
 import Routing from './Components/Routing';
+import UseRefHook from './Components/Hooks/UseRefHook';
 
 function App() {
   {/* 
@@ -18,7 +19,8 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <Routing />
+        <UseRefHook />
+        {/* <Routing /> */}
 
       {/* <h2>welcome to React</h2>
       <FuncComp courseName='ReactJs' duration="3Months" courseSkills={courseSkills} />
